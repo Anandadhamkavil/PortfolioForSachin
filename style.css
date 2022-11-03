@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Noto+Sans+KR:wght@100;300;900&family=Teko:wght@300;400;500&family=Work+Sans:ital,wght@0,300;1,200&display=swap');
+
+body {
+    text-align: center;
+    margin: 0;
+ background-image: url('./6.jpg');
+ background-size: cover;
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(127, 255, 212);
+    margin-top: 0px;
+}
+
+.links {
+   display: inline;
+    padding: 40px;
+    font-size: 25px; 
+}
+
+a {
+    color: rgb(250, 17, 17);
+    text-decoration: none;
+    text-shadow: 2px 2px 2px rgb(32, 218, 32);
+}
+
+/* pseudo class */
+.links:hover {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.profile {
+    margin-top: 70px;
+    width: 400px;
+}
+
+#name {
+    font-family: 'Dancing Script', cursive;
+}
+#welcome{
+    /* background: linear-gradient(to bottom right,rgb(97, 255, 49),rgb(0, 0, 0)); */
+    background-image: linear-gradient(to bottom left, red,orange,yellow,green,blue,indigo,violet);
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact_1{
+    text-shadow: none;
+    color: black;
+}
+.contact_1 h3{
+    display: inline;
+}
